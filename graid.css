@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* ===== GRID CONTAINER ===== */
+.grid-container {
+    display: grid;
+
+    /* 3 columns: sidebar + main + empty space */
+    grid-template-columns: 200px 1fr;
+
+    /* 3 rows */
+    grid-template-rows: 80px 1fr 60px;
+
+    /* Grid areas */
+    grid-template-areas:
+        "header header"
+        "sidebar main"
+        "footer footer";
+
+    min-height: 100vh;
+}
+
+/* ===== GRID AREAS ===== */
+.header {
+    grid-area: header;
+    background: #fa9231e5;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid black;
+    border-radius: 2px;
+    margin: 4px;
+    text-align: center;
+   
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background: rgba(245, 87, 87);
+    padding: 20px;
+    border: solid black;
+    border-radius: 2px;
+    margin: 4px;
+   
+}
+
+.sidebar ul {
+  text-align:left;
+}
+
+.sidebar li {
+    margin-bottom: 15px;
+}
+
+.main {
+    grid-area: main;
+    padding: 20px;
+    background: lightgreen;
+    border: solid black;
+    border-radius: 2px;
+    margin: 4px;
+    text-align: center;
+}
+
+.footer {
+    grid-area: footer;
+    background: rgbA(87, 57, 255);
+    color: rgbA(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid black;
+    border-radius: 2px;
+    margin: 4px;
+
+}
