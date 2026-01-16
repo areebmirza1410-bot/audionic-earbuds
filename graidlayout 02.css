@@ -1,6 +1,10 @@
+
+/*----first layout-----*/
+
+
 body {
     margin: 0;
-    padding: 15px;
+    padding: 10px;
     font-family: Arial, sans-serif;
 }
 
@@ -8,17 +12,19 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
+    
 }
 
 .box {
     height: 360px;
     color: white;
     border: solid black;
-    border-radius: 4px;
+    border-radius: 6px;
     margin: 2px;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 /* Box Colors */
@@ -28,3 +34,70 @@ body {
 .box4 { background-color: #ff9800; }
 .box5 { background-color: #32cd32; }
 .box6 { background-color: #8e3ecf; }
+
+
+
+
+
+
+
+
+/* -----Second container--------*/
+
+
+body {
+    margin: 0;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+.second-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(1,1fr);
+    gap: 10px;
+}
+
+.box second-container {
+    height: 260px;
+    color: rgb(0, 0, 0);
+    border: solid black;
+    border-radius: 6px;
+    margin: 4px;
+    text-decoration: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.boxa { background-color: #6a9dfc; }
+.boxb { background-color: #e3123d; }
+.boxc { background-color: #22b3a6; }
+.boxd { background-color: #ff9800; }
+.boxe { background-color: #32cd32; }
+.boxf { background-color: #8e3ecf; }
+.boxg { background-color: #8e3ecf; }
+.boxh { background-color: #6a9dfc; }
+.boxi { background-color:#e3123d ; }
+.boxj { background-color: #22b3a6; }
+.boxk { background-color: #ff9800; }
+.boxl { background-color: #32cd32; }
+.boxm { background-color:#22b3a6;  }
+.boxn { background-color: #8e3ecf; }
+.boxo { background-color: #6a9dfc; }
+.boxp { background-color: #e3123d; }
+.boxq { background-color:#32cd32;  }
+.boxr { background-color: #ff9800; }
+
+
+
+
+
+
+
+/* ------THIRD LAYOUT--------*/
+
+
