@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.box {
+    height: 360px;
+    color: white;
+    border: solid black;
+    border-radius: 4px;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Box Colors */
+.box1 { background-color: #6a9dfc; }
+.box2 { background-color: #e3123d; }
+.box3 { background-color: #22b3a6; }
+.box4 { background-color: #ff9800; }
+.box5 { background-color: #32cd32; }
+.box6 { background-color: #8e3ecf; }
